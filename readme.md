@@ -1,6 +1,6 @@
 # Canonical Compression Engine
 
-## Canonical Huffman Compression.pptx
+## Canonical Huffman Compression Engine.pptx
 Provides a high level overview for the project and highlights the findings. 
 
 ## Output.png 
