@@ -1,5 +1,12 @@
 # Canonical Compression Engine
 
+## Canonical Huffman Compression.pptx
+Provides a high level overview for the project and highlights the findings. 
+
+## Output.png 
+Shows the output which compares the performance of using a traditional Huffman compression engine versus a canonical compression engine. 
+
+
 ## To run the code, please enter this in terminal
 
 ```
