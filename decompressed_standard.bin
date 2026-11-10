@@ -1,0 +1,33 @@
+#ifndef TYPES_H
+#define TYPES_H
+
+#define MAX_TREE_HT 256
+#define ALPHABET_SIZE 256
+
+// Node for the Huffman Tree and Min-Heap
+typedef struct Node {
+    int symbol;
+    unsigned freq;
+    struct Node *left, *right;
+} Node;
+
+// Min-Heap Data Structure
+typedef struct MinHeap {
+    unsigned size;
+    unsigned capacity;
+    Node **array;
+} MinHeap;
+
+// Structure for sorting symbols to generate Canonical Codes
+typedef struct {
+    int symbol;
+    int length;
+} SymLen;
+
+// Structure to hold the final generated code
+typedef struct {
+    unsigned int code;
+    int length;
+} CanonicalCode;
+
+#endif // TYPES_H
